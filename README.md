@@ -17,12 +17,12 @@ First, they certainly do not make it easy, do they? Here are some time approxima
 1) I assumed the tables schema provided was the correct path without putting too much thought into it.
 2) I found that the table 'file_location_df' that contained only two columns, a description column and location column,  were the only things I needed as I saw that both New York and PPO were present in the description column.
 3) I assume that New York and PPO don't have other variations or nicknames in the world of healthcare. That could be wrong, and with more time, I would explore that.
-4) There were only 2 unique locations, and 70 unique addresses. This probably means there are lots of descriptions (URLs) assocciated with each location.
-   -Random note: New York CIty is in the southeast of the state of New York that hosts a large majority of the state's population. Notheastern NY and Western NY are the only descriptions present. I would 
+4) There were only 2 unique locations, and 70 unique addresses. This probably means there are lots of locations (URLs) associated with each description.
+   -Random observation: New York City is in the southeast of the state of New York that hosts a large majority of the state's population. Notheastern NY and Western NY are the only descriptions present. I would 
    explore that if I had more time.
 
 ## What would I have done differently?
-1) I would explore the latest techniques in how to make things run faster with some kind of parallel computation.
+1) I would explore the latest techniques in how to make things run faster with some kind of parallel computation. I restarted my kernel, and lost anouther 30 minutes or so reloading everything. 
 2) I chose my tech stack to be what was familiar. Donwloading the file, using python notebook, and sifting through a JSON file. There are more sophisticated ways to do this which would take more time for me to setup and learn.
 
 # MY FINAL ANSWER
